@@ -13,11 +13,11 @@ jobs:
       contents: write
     steps:
       - name: init
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: etc
       - name: init
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           path: gen
           repository: xszo/et-gen
